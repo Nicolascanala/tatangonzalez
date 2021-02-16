@@ -80,6 +80,7 @@ a:focus {
   top: 0;
   z-index: 1002;
   background: none;
+  margin-bottom: -80px;
 }
 
 .navbar {
@@ -1096,6 +1097,11 @@ figure.effect-sadie:hover p {
     margin-top: -37%;
     margin-left: 5%;
     /*padding-right: 180px;*/
+  }
+
+  .cd-slider-nav {
+    position: sticky;
+    margin-bottom: -55px;
   }
 
   /*
