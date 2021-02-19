@@ -1132,6 +1132,10 @@ figure.effect-sadie:hover p {
     height: 290px;
     margin-left: 15px;
   }
+
+  .card-text {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -1151,6 +1155,10 @@ figure.effect-sadie:hover p {
     margin-top: -280px;
     height: 281px;
     margin-left: 15px;
+  }
+
+  .card-text {
+    width: 100%;
   }
 }
 
@@ -1178,6 +1186,10 @@ figure.effect-sadie:hover p {
   .lado-izquierdo {
     font-size: 6.7px;
     margin-top: -100px;
+  }
+
+  .card-text {
+    width: 100%;
   }
 }
 
@@ -1227,6 +1239,10 @@ figure.effect-sadie:hover p {
   .lado-izquierdo {
     font-size: 5.9px;
     margin-top: -105px;
+  }
+
+  .card-text {
+    width: 100%;
   }
 }
 
