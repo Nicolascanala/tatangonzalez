@@ -1,14 +1,7 @@
-/*html.gray .cd-hero,
-html.gray #loader-wrapper {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-}*/
-
 body {
   background-color: #dddddd;
   color: black;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: 300;
   overflow-x: hidden;
@@ -46,7 +39,6 @@ a:focus {
 }
 
 .logo-tatan {
-  /*background: none;*/
   position: static;
   color: white;
   width: 110px;
@@ -319,31 +311,12 @@ button:focus {
 }
 
 .sobre-mi {
-  /*display: grid;
-  max-width: 300px;
-  position: absolute;
-  top: 12%;*/
-  /*margin-right: auto;
-  margin-left:  1%;
-  margin-top: -45.4%;
-  max-width: 25%;
-  max-height: 35%;
-  padding-right: 10px;
-  padding-left:  10px;*/
   box-sizing: border-box;
   width: 25%;
   margin-top: -49%;
   padding-bottom: 27px;
   height: 564px;
 }
-
-/*@media screen and (max-width: 720px) {
-  .div.sobre-mi {
-    font-size: 7px;
-    margin-top: -60px;
-    max-width: 120px;
-  }
-}*/
 
 .texto-sobre-mi {
   display: grid;
@@ -352,31 +325,13 @@ button:focus {
   color: rgb(245, 243, 242);
 }
 
-/*@media screen and (max-width: 720px) {
-  .texto-sobre-mi {
-    font-size: 7px;
-    margin-top: -60px;
-    max-width: 120px;
-  }
-}*/
-
 .lado-izquierdo {
   max-width: 310px;
   position: absolute;
   top: 18%;
-  /*left: 950px;*/
   left: 70%;
   font-size: 20px;
 }
-
-/*@media screen and (max-width: 720px) {
-  .lado-izquierdo {
-    font-size: 7px;
-    max-width: 120px;
-    margin-top: -60px;
-    left: 350px;
-  }
-}*/
 
 .form-control,
 .tm-submit-btn {
@@ -509,7 +464,7 @@ textarea {
   z-index: 2001;
 }
 #loader:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -521,7 +476,7 @@ textarea {
   animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
 #loader:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 15px;
   left: 15px;
@@ -722,7 +677,7 @@ figure.effect-sadie figcaption::before {
     rgba(72, 76, 97, 0) 0%,
     rgba(72, 76, 97, 0.8) 75%
   );
-  content: '';
+  content: "";
   opacity: 0;
   -webkit-transform: translate3d(0, 50%, 0);
   transform: translate3d(0, 50%, 0);
